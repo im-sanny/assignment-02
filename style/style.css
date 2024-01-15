@@ -1,0 +1,127 @@
+*{ 
+    border: 1 px solid black;
+    width: 1440;
+    font-family: 'Mulish', sans-serif;
+}
+/* shared styles */
+.heading-title{
+    color: #131318;
+    font-weight: 800;
+    line-height: normal;
+}
+span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: normal;
+    width: 174px;
+    height: 52px;
+}
+
+
+/* header section */
+.heading-title{
+    font-size: 2.1rem;
+}
+nav{
+    margin: 40px 90px 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 30px;
+    color: #424247;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+nav li  a{
+    text-decoration: none;
+}
+
+/* banner section */
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group1.png);
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    margin: 50px 90px 0 90px;
+    height: 400px;
+}
+.banner{
+ 
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.banner-heading{
+   padding-top: 120px;
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 215px;
+    width: 650px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.box-container{
+    width: 730px;
+    height: 30px;
+    margin: 20px 10% 0 14%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: flex;
+}
+div input{
+    margin-left: 10px;
+    margin-top: -7px;
+    border: 2px solid black;
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.box1, .box2{
+    margin-top: -7px;
+    margin-left: 10px;
+    border: 2px solid black;
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.btn-1{
+    margin-top: -7px;
+    margin-left: 10px;
+    border: none;
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+}

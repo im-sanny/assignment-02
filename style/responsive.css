@@ -1,0 +1,41 @@
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+ ul{
+   flex-direction: column;
+    }
+
+    .heading-title{
+        margin-left: -50px;
+         }
+     .banner-heading{
+         padding-top: 60px;
+         font-size: 22px;
+     
+     }
+     .banner-description{
+         padding-top: 10px;
+         margin-left: 50px;
+         width: 400px;
+         }
+     .banner{
+             width: 500px;
+             height: 500px;
+             margin-left: 40px;
+         }
+     div.box-container{
+         display: flex;
+         width: 200px;
+         height: 200px;
+         padding: 16px;
+         margin-bottom: 20px;
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 16px;
+         margin-top: 30px;
+         margin-left: 140px;
+     }
+}
+
+  
+    
+    
