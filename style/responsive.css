@@ -1,73 +1,72 @@
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 600px) {
- ul{
-   flex-direction: column;
-    }
-
-    .heading-title{
-        margin-left: -50px;
-         }
-     .banner-heading{
-         padding-top: 60px;
-         font-size: 22px;
-     
-     }
-     .banner-description{
-         padding-top: 10px;
-         margin-left: 50px;
-         width: 400px;
-         }
-     .banner{
-             width: 500px;
-             height: 500px;
-             margin-left: 40px;
-         }
-     div.box-container{
-         display: flex;
-         width: 200px;
-         height: 200px;
-         padding: 16px;
-         margin-bottom: 20px;
-         flex-direction: column;
-         align-items: flex-start;
-         gap: 16px;
-         margin-top: 30px;
-         margin-left: 140px;
-     }
-     /* 2nd section */
-     .tour-container
-     { 
-        /* width: 600px; */
+@media screen and (max-width: 600px) and (max-width: 992px) {
+    nav{
        flex-direction: column;
-       margin-left: 120px;
-       align-items: center;
-        
-     }
-     div .tour-heading
-     {
-      margin-left: -20px;
-      width: 500px;
-      height: 20px;
-      font-size: 1rem;
-     }
-     .tour-description{
-        width: 550px;
-        text-align: left;
-        margin-left: -20px;
-     }
-     #text-line{
-        width: 520px;
-        margin-left: -30px;
-     }
-     div .btn-2{
-        margin-top: 20px;
-        margin-left: -30px;
-     }
-     #tour-img{
-        margin-left: -120px;
-        
-     }
+       flex-wrap: wrap;
+    }
+    nav >.header-title{
+        font-size: 2rem;
+      margin-left: -90px;
+    }
+    .header-title > img{
+        width: 50px;
+        height: 50px;
+    }
+    nav > ul{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin: 0px -410px 0 -40px;
+    }
+    /* banner */
+
+    .banner {
+       width: 90%;       
+       margin: 20px 20px 0 30px;
+       height: 500px;
+    }
+    .banner-heading{
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 1.4rem;
+   }
+   .banner-description{
+    margin-left: 0;
+    margin-top: 10px;
+    width: 400px;
+    font-size: 0.9rem;
+    position: relative;
+    left: 60px;
+   } 
+   .box-container {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 300px;
+   position: relative;
+   right: -36px;
+    
+    }
+    input, .box1, .box2, .btn-1 {
+    width: 100%;
+    margin: 10px 0;
 }
+      
+}
+/* tour section */
+.tour-container{
+    grid-template-columns: repeat(1fr);
+    flex-direction: column;
+}
+    
+
+    
+
+
+
+ 
 
   
     

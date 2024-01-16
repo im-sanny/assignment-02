@@ -1,37 +1,21 @@
 *{
     font-family: 'Mulish', sans-serif;
-    width: 1440;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
 }
-/* shared styles */
-.heading-title{
-    color: #131318;
-    font-weight: 800;
-    line-height: normal;
-}
-span{
-    color: #FF5400;
-    font-size: 36px;
-    font-weight: 800;
-}
-.btn-primary{
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 800;
-    line-height: normal;
-    width: 174px;
-    height: 52px;
-}
-
-
 /* header section */
-.heading-title{
-    font-size: 2.1rem;
+
+header{
+    margin: 52px 127px 0 127px;
+}
+.header-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+  
 }
 nav{
-    margin: 40px 90px 0 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,42 +23,37 @@ nav > ul{
     display: flex;
 }
 nav li{
-    margin-top: 20px;
     list-style: none;
-    margin-right: 20px;
+    margin: 20px 10px 0 0;
     color: #424247;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
-nav li  a{
+nav a{
     text-decoration: none;
 }
 
 /* banner section */
+
 .banner{
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group1.png);
     background-size: cover;
     background-position: center;
-    width: 85%;
-    margin: 50px 90px 0 90px;
+    width: 1080px;
+    height: 500px;
+    margin: 50px 0 0 100px;
     height: 400px;
 }
-.banner{
- 
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
 .banner-heading{
-   padding-top: 120px;
-    color: #FFF;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 800;
-}
-.banner-description{
+    padding-top: 120px;
+     color: #FFF;
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 800;
+ }
+ .banner-description{
     color: #FFF;
     margin-top: 20px;
     text-align: center;
@@ -92,17 +71,7 @@ nav li  a{
     padding: 16px;
     display: flex;
 }
-div input{
-    margin-left: 10px;
-    margin-top: -7px;
-    border: 2px solid black;
-    width: 174px;
-    height: 45px;
-    border-radius: 8px;
-    border: none;
-    text-align: center;
-}
-.box1, .box2{
+ div .box, .box2, input, .btn-1{
     margin-top: -7px;
     margin-left: 10px;
     border: 2px solid black;
@@ -112,48 +81,57 @@ div input{
     border: none;
     text-align: center;
 }
-.btn-1{
-    margin-top: -7px;
-    margin-left: 10px;
-    border: none;
-    width: 174px;
-    height: 45px;
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-}
-
 /* tour section */
 
 .tour-container{
-    border: 2px solid salmon;
+   
     display: flex;
-    margin: 0px 100px 0 150px;
+    justify-content: space-between;
+    margin: 70px 78px 0 150px;
 }
-.tour-box{
-width: 500px;
-text-align: left;
-}
-div .tour-heading{
-    color: #131318;
-    text-align: center;
-    justify-content: left;
-    font-size: 2.6rem;
-    font-weight: 800;
-    width: 319.931px;
-    height: 100.858px;
-    margin-left: -40px;
+
+.tour-heading{
+        color: #131318;
+        font-size: 2.4rem;
+        font-weight: 800;
+        width: 319.931px;
+        height: 100.858px;
+        margin-left: -10px;
+        margin-top: -20px;
 }
 .tour-description{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
-    width: 520px;
+    width: 420px;
+    text-align: left;
     height: 52.446px;
 }
+#text-line{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 26px;
+    padding-left: 30px;
+    width: 420px;
+    
+}
+ div > #tour-img{
+    border-radius: 16px;
+    background: url(/Images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    float: right;
+    width: 540px;
+    height: 550px;
+    top: -490px;
+    right: -490px;
+        
+}
 .btn-2{
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: -10px;
     border-radius: 8px;
     border: none;
     background: #FF5400;
@@ -164,9 +142,348 @@ div .tour-heading{
     width: 150px;
     height: 40px;
 }
- #tour-img {
-   position: relative;
-   right: -53px;
-   float: right;
-   top: 50px;
+
+/* destination section */
+
+.destination-container{
+    text-align: center;
+    margin-top: -400px;
 }
+
+.destination-header{
+    color: #131318;
+    text-align: center;    
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 643px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 1080px;
+    margin: 50px 0px 0 100px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+div > .parent{
+        border-radius: 15px;
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 {
+   grid-area: 2 / 2 / 3 / 3;
+   position: relative;
+   left: -195px;
+   border-radius: 15px;
+}
+
+.div5 {
+    grid-area: 2 / 3 / 3 / 4;
+    position: relative;
+   left: -390px;
+   width: 300px;
+   height: 286px;
+
+ }
+
+.div6 {
+     grid-area: 3 / 1 / 4 / 2;
+     position: relative;
+     top: -15px;
+}
+
+.div7 {
+     grid-area: 3 / 2 / 4 / 3;
+      position: relative;
+      left: -100px;
+      top: -15px;
+      border-radius: 15px;
+}
+
+    /* chose section */
+    /* chose section */
+
+.chose{
+    text-align: center;
+    justify-content: center;
+    margin: 40px 100px 0 100px;
+}
+
+.chose-h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.chose-p{
+    color: rgba(19, 19, 24, 0.70);
+    position: relative;
+    left: 210px;
+    top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+}
+
+.choice-img { 
+    margin: 30px 0 0 40px; 
+    border-radius:  15px;
+}
+
+.hotels{
+    width: 650px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service{
+    width: 650px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price{
+    width: 550px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.best-price-2{
+    margin: -10px 100px 0 400px;
+    padding: 20px;
+}
+
+.joint-container{
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 0 100px;
+    padding: 20px;
+}
+ 
+.first{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 30px;
+}
+
+.second-p{
+    margin-top: -40px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px;
+}
+
+/* video section */
+
+.video-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    margin: 40px 120px 0 120px;
+}
+
+.video-h2{
+    color: #131318;
+    width: 448px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.video-p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 532px;
+}
+
+.video-ul{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    width: 518px;
+    margin-left: 15px;
+}
+
+.btn-3{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    border: none;
+    margin-top: 15px;
+}
+
+/* newsletter section */
+.newsletter{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 120px 0 120px;
+  gap: 100px;
+}
+
+.newsletter-form{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-left: -40px;
+    
+}
+
+.newsletter-h1{
+    margin: 40px 0 0 40px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-p{
+    width: 350px;
+    margin: 10px 0 0 40px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+hr{
+    margin: 15px 0 0 60px;
+    width: 300px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-input{
+    margin: 20px 40px 0 60px;
+    width:300px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-btn{
+    margin: 20px 40px 0 60px;
+    width: 300px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-discount{
+    border-radius: 16px;
+    background: url(/Images/Rectangle\ 8\ \(1\).png);
+    width: 672px;
+    height: 422px;
+    margin-right: -40px;
+    margin-left: -30px;
+}
+
+.newsletter-h{
+    color: #FFF;
+    text-align: center;
+   position: relative;
+   float: inline-end;
+   margin-top: 300px;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-22.628deg);
+    width: 250px;
+    height: 80px;
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+/* end section */
+.end-section{
+    margin-top: 100px;
+    width: 1263px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-header{
+   position: relative;
+   top: 100px;
+    color:#131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+ div > .end-p{
+    color: #5A5A5D;
+    position: relative;
+    left: 20%;
+    margin-top: 110px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 769px;
+}
+
+ div > .footer-log0{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.style{
+    margin-top: 20px;
+    width: 80%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.05);
+    position: relative;
+    right: -70px;
+}
+
+
+                                /* the end */
