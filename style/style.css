@@ -1,7 +1,6 @@
-*{ 
-    border: 1 px solid black;
-    width: 1440;
+*{
     font-family: 'Mulish', sans-serif;
+    width: 1440;
 }
 /* shared styles */
 .heading-title{
@@ -11,7 +10,6 @@
 }
 span{
     color: #FF5400;
-    font-family: Mulish;
     font-size: 36px;
     font-weight: 800;
 }
@@ -43,7 +41,7 @@ nav > ul{
 nav li{
     margin-top: 20px;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 20px;
     color: #424247;
     text-align: center;
     font-size: 1.1rem;
@@ -124,4 +122,51 @@ div input{
     background: #FF5400;
     color: #FFF;
     text-align: center;
+}
+
+/* tour section */
+
+.tour-container{
+    border: 2px solid salmon;
+    display: flex;
+    margin: 0px 100px 0 150px;
+}
+.tour-box{
+width: 500px;
+text-align: left;
+}
+div .tour-heading{
+    color: #131318;
+    text-align: center;
+    justify-content: left;
+    font-size: 2.6rem;
+    font-weight: 800;
+    width: 319.931px;
+    height: 100.858px;
+    margin-left: -40px;
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 520px;
+    height: 52.446px;
+}
+.btn-2{
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 150px;
+    height: 40px;
+}
+ #tour-img {
+   position: relative;
+   right: -53px;
+   float: right;
+   top: 50px;
 }
