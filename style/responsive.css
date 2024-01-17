@@ -1,5 +1,5 @@
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 600px) , (min-width:992px) {
+@media screen and (max-width: 600px), (max-width:992px) {
     body{
         margin: 0;
     }
