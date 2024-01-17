@@ -13,10 +13,11 @@
         height: 50px;
     }
     nav > ul{
-        /* flex-direction: column; */
+        flex-direction: column;
         flex-wrap: wrap;
         margin: 0px -410px 0 -40px;
     }
+
     /* banner */
 
     .banner {
@@ -54,20 +55,205 @@
     margin: 10px 0;
 }
       
-}
+
 /* tour section */
+
 .tour-container{
-    grid-template-columns: repeat(1fr);
+    flex-direction: column;
+    margin-left: 40px;
+}
+.btn-2{
+    margin-top: 10px;
+}
+.tour-description, #text-line{
+    width: 500px;
+}
+#tour-img{
+    flex-direction: column;
+    justify-content: left;
+    float: left;
+    float: none;
+    width: 530px;
+    height: 50px;
+    margin-top: 20px;
+    left: -28px;
+
+}
+/* destination section */
+.destination-container{
     flex-direction: column;
 }
+
+.destination-header{
+    margin-left: -30px;
+    font-size: 2rem;
+}
+.destination-description{
+margin: 10px 0 30px;
+width: 500px;
+}
+
+.parent{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 10px;
+background-size: cover;
+overflow:visible;
+object-fit: none;
+  }
+ .div1, img{
+    width: 543px;
+    height: 350px;
+  }
+  .div4, img{
+    width: 543px;
+    height: 350px;
+    position: relative;
+    left: 0;
+  }
+  .div5, img{
+    position: relative;
+    left: 0;
+  }
+
+  .div6, img{
+    position: relative;
+    top: 65px;
+  }
+  
+  .div6, img{
+    position: relative;
+    left: 0;
+    top: 65px;
+  }
+  .div7, img{
+    position: relative;
+    left: 0;
+    top: 65px;
+  }
     
+/* chose section */
+.choice-img{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.chose-p {
+    position: relative ;
+  margin-left: -240px;
+  width: 450px;
+}
+.joint-container{
+    flex-direction: column;
+    margin-left: 2px;
+}
+.hotels{
+    width: 535px;
+}
+.service{
+    width: 535px;
+    margin-top: -25px;
+}
 
+.best-price-2{
+    width: 510px;
+    margin-left: 2px;
+    margin-top: -35px;
+}
+
+/* video section */
+.video-section{
+    flex-direction: column;
+    margin-left: 17px;
+}
+.video-h2{
+    width: 570px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.video-p{
+    width: 570px;
+    margin-left: 30px;
     
-
-
-
+}
+.video-ul{
+    width: 520px;
+    margin-left: 50px;
+}
+.btn-3{
+    margin-left: 30px;
+    width: 140px;
+height: 35px;
+}
+.video-part{
+    margin-top: 20px;
+   width: 535px;
+   margin-left: -4.5px;
+}
  
+/* newsletter part */
+
+.newsletter {
+    flex-direction: column;
+}
+.newsletter-form{
+    width: 540px;
+   margin-left: -100px;
+}
+.newsletter-h1 {
+   text-align: center;
+}
+.newsletter-p{
+    text-align: center;
+    margin-left: 100px;
+}
+hr{
+    margin-left: 120px;
+}
+.newsletter-input{
+margin-left: 120px;
+}
+.newsletter-btn{
+    margin-left: 120px;
+}
+.newsletter-discount{
+    width: 540px;
+    margin-left: -100px;
+    margin-top: -60px;
+}
+/* end section */
+
+.end-section{
+    text-align: center;
+    width: 600px;
+    height: 400px;
+}
+.footer-header{
+ margin-left: -20px;
+}
+div > .end-p{
+    width: 450px;
+    margin-left: -60px;
+    margin-bottom: 20px;
+}
+.footer-log0 {
+  margin-left: -20px;
+  
+}
+.style{
+    margin-left: -20px;
+    width: 480px;
+    height: 4px;
+    margin-top: -20px;
+}
+small{
+ margin-top: -20px;
+   
+}
+
 
   
-    
+}   
     
