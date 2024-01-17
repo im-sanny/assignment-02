@@ -12,6 +12,13 @@
        flex-direction: column;
        flex-wrap: wrap;
     }
+    #hamburger{
+        visibility: visible;
+      position: relative;
+      right: -205px;
+      top: 4px;
+      
+    }
     nav >.header-title{
         font-size: 2rem;
       margin-left: -90px;
@@ -21,6 +28,7 @@
         height: 50px;
     }
     nav > ul{
+        visibility: hidden;
         flex-wrap: wrap;
         margin: 0px -75px 0 -40px;
     }
