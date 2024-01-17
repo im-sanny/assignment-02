@@ -1,5 +1,5 @@
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 600px) , (max-width:992px) {
+@media screen and (max-width: 600px) , (min-width:992px) {
     body{
         margin: 0;
     }
@@ -204,17 +204,17 @@ overflow:visible;
     margin-left: 17px;
 }
 .video-h2{
-    width: 550px;
+    width: 520px;
     margin-left: 30px;
     margin-top: -20px;
 }
 .video-p{
-    width: 550px;
+    width: 520px;
     margin-left: 30px;
     
 }
 .video-ul{
-    width: 520px;
+    width: 500px;
     margin-left: 50px;
 }
 .btn-3{
