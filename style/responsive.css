@@ -1,5 +1,5 @@
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 600px) and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     nav{
        flex-direction: column;
        flex-wrap: wrap;
@@ -13,7 +13,6 @@
         height: 50px;
     }
     nav > ul{
-        flex-direction: column;
         flex-wrap: wrap;
         margin: 0px -410px 0 -40px;
     }
@@ -21,7 +20,7 @@
     /* banner */
 
     .banner {
-       width: 90%;       
+       width: 540px;       
        margin: 20px 20px 0 30px;
        height: 500px;
     }
@@ -76,7 +75,7 @@
     width: 530px;
     height: 50px;
     margin-top: 20px;
-    left: -28px;
+    left: -10px;
 
 }
 /* destination section */
@@ -85,11 +84,11 @@
 }
 
 .destination-header{
-    margin-left: -30px;
+    margin-left: 10px;
     font-size: 2rem;
 }
 .destination-description{
-margin: 10px 0 30px;
+margin: 10px 0 0 40px;
 width: 500px;
 }
 
@@ -97,44 +96,63 @@ width: 500px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-margin-left: 10px;
+margin-left: 27px;
 background-size: cover;
 overflow:visible;
-object-fit: none;
+
   }
  .div1, img{
+    margin-top: -80px;
     width: 543px;
     height: 350px;
+    /* margin-left: 10px; */
   }
+  .div2, img{
+    margin-top: 10px;
+  }
+
+  .div3, img{
+    position: relative;
+    left: 0;
+    top: -10px;
+  }
+
   .div4, img{
     width: 543px;
     height: 350px;
     position: relative;
     left: 0;
+    margin-top: 5px;
   }
   .div5, img{
     position: relative;
     left: 0;
+    margin-top: 7px;
   }
 
   .div6, img{
     position: relative;
-    top: 65px;
+    top: 75px;
   }
   
-  .div6, img{
+  .div3, img{
     position: relative;
     left: 0;
-    top: 65px;
+    top: 5px;
   }
   .div7, img{
     position: relative;
     left: 0;
-    top: 65px;
+    top: 75px;
   }
     
 /* chose section */
-.choice-img{
+.chose-h1{
+    margin-top: 180px;
+}
+#choice-img{
+    width: 60px;
+    height: 60px;
     position: relative;
     top: 0;
     right: 0;
@@ -147,7 +165,7 @@ object-fit: none;
 }
 .joint-container{
     flex-direction: column;
-    margin-left: 2px;
+    margin-left: 10px;
 }
 .hotels{
     width: 535px;
@@ -159,7 +177,7 @@ object-fit: none;
 
 .best-price-2{
     width: 510px;
-    margin-left: 2px;
+    margin-left: 10px;
     margin-top: -35px;
 }
 
@@ -190,7 +208,7 @@ height: 35px;
 .video-part{
     margin-top: 20px;
    width: 535px;
-   margin-left: -4.5px;
+   margin-left: 3.5px;
 }
  
 /* newsletter part */
@@ -200,7 +218,7 @@ height: 35px;
 }
 .newsletter-form{
     width: 540px;
-   margin-left: -100px;
+   margin-left: -90px;
 }
 .newsletter-h1 {
    text-align: center;
@@ -220,7 +238,7 @@ margin-left: 120px;
 }
 .newsletter-discount{
     width: 540px;
-    margin-left: -100px;
+    margin-left: -90px;
     margin-top: -60px;
 }
 /* end section */
@@ -239,7 +257,13 @@ div > .end-p{
     margin-bottom: 20px;
 }
 .footer-log0 {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -80px;
   margin-left: -20px;
+  
   
 }
 .style{
@@ -255,5 +279,5 @@ small{
 
 
   
-}   
+}  
     
